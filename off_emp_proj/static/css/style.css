@@ -1,0 +1,57 @@
+#bck{
+    background-image: url("/static/images/off.jpg");
+    background-size: cover;
+
+  } 
+  #all{
+    background-image: url("/static/images/off.jpg");
+    background-size: cover;
+  }
+  #add{
+    background-image: url("/static/images/off.jpg");
+    background-size: cover;
+  }
+  #remove{
+    background-image: url("/static/images/off.jpg");
+    background-size: cover;
+
+  }
+  #filter{
+    background-image: url("/static/images/off.jpg");
+    background-size: cover;
+
+  }
+  .new{
+    color: aliceblue;
+  }
+  .div1{
+    color: blue;
+    margin-top: 40vh;
+    position: relative; 
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: 1;
+  }
+  .div3{
+    color:white;
+    margin-top: 40vh;
+    position: relative;
+    animation-name: example;
+    animation-duration: 5s;
+    animation-iteration-count: 1;
+  }
+  @keyframes example {
+    from {left: -500px;background-color:transparent;}
+    50%  {left: -100px !important;background-color: black;} /* ignored */
+    to   {left: 0px;background-color: transparent;}
+  }
+
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones:  making the wesite responsive*/
+    [class*="div"] {
+      margin-left: 20vh;
+      position: relative;
+      width: 40%;
+    }
+    
+  }
